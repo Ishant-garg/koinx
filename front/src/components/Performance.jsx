@@ -54,7 +54,7 @@ const Performance = () => {
       {/* Fundamentals Section */}
       <div className="mt-8">
         <h2 className="text-xl font-bold text-gray-700 mb-4">Fundamentals</h2>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Left Column */}
           <div className="flex justify-between border-b-2 border-[#D3E0E6]">
             <p className="text-[#768396] text-sm">Bitcoin Price</p>
