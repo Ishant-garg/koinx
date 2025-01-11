@@ -1,4 +1,4 @@
-const Team = () => {
+const Teamsection  = () => {
     const teamMembers = [
       {
         name: "John Smith",
@@ -54,4 +54,4 @@ const Team = () => {
     );
   };
   
-  export default Team;
+  export default Teamsection;

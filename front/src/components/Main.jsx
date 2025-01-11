@@ -3,7 +3,10 @@ import Footer from './Footer'
 import Header from './Header'
 import Performance from './Performance'
 import SentimentDashboard from './SentimentDashboard'
-import Team from './Team'
+ 
+import Teamsection from './Teamsection'
+ 
+ 
  
 import Tokenomics from './Tokenomics'
 import TopBar from './TopBar'
@@ -23,7 +26,7 @@ const Main = () => {
             <SentimentDashboard/>
             <BitcoinInfo/>
             <Tokenomics/>
-            <Team/>
+            <Teamsection/>
             <Footer/>
             
         </div>
