@@ -27,7 +27,7 @@ const Main = () => {
             <BitcoinInfo/>
             <Tokenomics/>
             <Teamsection/>
-            <Footer/>
+            
             
         </div>
 

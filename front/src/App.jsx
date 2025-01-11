@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import SideBar from "./components/SideBar";
@@ -15,6 +16,8 @@ const App = () => {
           <SideBar />
         </div>
       </div>
+
+      <Footer/>
     </div>
   );
 };

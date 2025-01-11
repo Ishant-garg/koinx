@@ -3,7 +3,7 @@ import Carousel from './Carousel'
 
 const Footer = () => {
   return (
-    <div className=" w-[1080px] max-w-[100%]  bg-white shadow-md rounded-lg md:p-12 p-6 w-full ">
+    <div className="    mx-auto    bg-white shadow-md rounded-lg md:p-12 p-6  w-[96%] ">
       {/* "You May Also Like" Section */}
       <Carousel title="You May Also Like" />
 
