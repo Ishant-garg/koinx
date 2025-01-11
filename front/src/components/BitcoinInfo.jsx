@@ -1,7 +1,7 @@
  
 const BitcoinInfo = () => {
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 w-full">
+    <div className="bg-white shadow-md rounded-lg md:p-12 p-6 w-full">
       {/* About Bitcoin Section */}
       <h2 className="text-2xl font-bold mb-4">About Bitcoin</h2>
 

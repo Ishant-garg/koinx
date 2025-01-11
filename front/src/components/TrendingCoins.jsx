@@ -22,7 +22,7 @@ function TrendingCoins() {
         }));
         setCoins(topCoins);
       } catch (err) {
-        setError("Failed to fetch trending coins");
+        setError("Failed to fetch trending coins" , err);
       } finally {
         setLoading(false);
       }

@@ -1,6 +1,6 @@
 const Tokenomics = () => {
     return (
-      <div className="bg-white shadow-md rounded-lg p-6 w-full">
+      <div className="bg-white shadow-md rounded-lg p-6 md:p-12 w-full">
         <h2 className="text-2xl font-semibold mb-4">Tokenomics</h2>
         <h3 className="  font-semibold mb-4">Initial Distribution</h3>
         <div className="flex items-center gap-6 mb-6">

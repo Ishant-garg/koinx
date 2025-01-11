@@ -1,7 +1,7 @@
  
 const SentimentDashboard = () => {
   return (
-    <div className="border border-gray-200 flex flex-col gap-4 brounded-lg p-6 bg-white rounded-md">
+    <div className="border border-gray-200 flex md:p-12 flex-col gap-4 brounded-lg p-6 bg-white rounded-md">
       <h3 className="text-lg font-semibold mb-4">Sentiment</h3>
 
       {/* Key Events Section */}
