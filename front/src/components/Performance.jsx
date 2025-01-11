@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import    { useEffect, useState } from "react";
 import axios from "axios";
 
 const Performance = () => {
@@ -44,7 +44,7 @@ const Performance = () => {
       <div className="flex items-center justify-between">
         {/* Left Column */}
         <div className="flex flex-col">
-          <p className="text-gray-500 text-sm">Today's Low</p>
+          <p className="text-gray-500 text-sm">Today&apos;s Low</p>
           <p className="text-red-500 font-bold">46,930.22</p>
         </div>
 
@@ -64,7 +64,7 @@ const Performance = () => {
 
         {/* Right Column */}
         <div className="flex flex-col items-end">
-          <p className="text-gray-500 text-sm">Today's High</p>
+          <p className="text-gray-500 text-sm">Today&apos;s High</p>
           <p className="text-green-500 font-bold">49,343.83</p>
         </div>
       </div>

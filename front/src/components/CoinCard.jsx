@@ -1,4 +1,4 @@
-import React from "react";
+ import PropTypes from "prop-types";
 
 const CoinCard = ({ coin }) => {
   const priceChange = coin.item.data.price_change_percentage_24h.usd.toFixed(2);
@@ -36,6 +36,24 @@ const CoinCard = ({ coin }) => {
       </div>
     </div>
   );
+};
+
+// Adding Prop Validation
+CoinCard.propTypes = {
+  coin: PropTypes.shape({
+    item: PropTypes.shape({
+      small: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      symbol: PropTypes.string.isRequired,
+      data: PropTypes.shape({
+        price_change_percentage_24h: PropTypes.shape({
+          usd: PropTypes.number.isRequired,
+        }).isRequired,
+        price: PropTypes.number.isRequired,
+        sparkline: PropTypes.string.isRequired,
+      }).isRequired,
+    }).isRequired,
+  }).isRequired,
 };
 
 export default CoinCard;

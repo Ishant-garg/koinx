@@ -9,7 +9,7 @@ const BitcoinInfo = () => {
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">What is Bitcoin?</h3>
         <p className="text-gray-700 text-sm">
-          Bitcoin's price today is <strong>$16,951.82</strong>, with a 24-hour trading volume of <strong>$19.14 B</strong>. BTC is <strong>+0.36%</strong> in the
+           Bitcoin&apos;s  price today is <strong>$16,951.82</strong>, with a 24-hour trading volume of <strong>$19.14 B</strong>. BTC is <strong>+0.36%</strong> in the
           last 24 hours. It is currently <strong>-7.70%</strong> from its 7-day all-time high of <strong>$18,366.66</strong>, and <strong>3.40%</strong> from its
           7-day all-time low of <strong>$16,394.75</strong>. BTC has a circulating supply of <strong>19.24 M BTC</strong> and a max supply of <strong>21 M BTC</strong>.
         </p>
