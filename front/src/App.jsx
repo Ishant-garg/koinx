@@ -8,11 +8,11 @@ const App = () => {
     <div>
       <Navbar />
 
-      <div className="flex flex-col md:flex-row justify-between mx-auto my-6 px-6">
-        <div className="basis-full md:basis-[70%]">
+      <div className="flex flex-col lg:flex-row justify-between mx-auto my-4 sm:my-6 px-4 sm:px-6 max-w-7xl gap-6">
+        <div className="w-full lg:w-[70%]">
           <Main />
         </div>
-        <div className="basis-full md:basis-[30%] mt-4 md:mt-0">
+        <div className="w-full lg:w-[30%] mt-0 sm:mt-0">
           <SideBar />
         </div>
       </div>
