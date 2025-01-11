@@ -1,5 +1,4 @@
-import React from 'react';
-
+ 
 const SentimentDashboard = () => {
   return (
     <div className="border border-gray-200 flex flex-col gap-4 brounded-lg p-6 bg-white rounded-md">

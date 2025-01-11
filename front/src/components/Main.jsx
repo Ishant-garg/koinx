@@ -1,4 +1,5 @@
-import BitcoinPrice from './BitcoinPrice'
+import BitcoinInfo from './BitcoinInfo'
+ 
 import Performance from './Performance'
 import SentimentDashboard from './SentimentDashboard'
 import TopBar from './TopBar'
@@ -14,6 +15,7 @@ const Main = () => {
             <TopBar/>
             <Performance/>
             <SentimentDashboard/>
+            <BitcoinInfo/>
         </div>
 
         

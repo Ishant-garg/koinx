@@ -1,5 +1,4 @@
-import React from 'react';
-
+ 
 const PriceCard = ({ title, value, isChange }) => {
   const isPositive = isChange && value >= 0;
 
