@@ -3,7 +3,8 @@ import Footer from './Footer'
 import Header from './Header'
 import Performance from './Performance'
 import SentimentDashboard from './SentimentDashboard'
-import Team from './TeaM'
+import Team from './Team'
+ 
 import Tokenomics from './Tokenomics'
 import TopBar from './TopBar'
 
